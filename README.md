@@ -1,11 +1,22 @@
 # UFOs
 ## Overview of Project: 
-The purpose of this analysis is to make Dana's webpage more dynamic by providing by adding multiple filters at the same time to provide an in-depth analysis of UFO sightings  using Javascript. 
+The purpose of this analysis is to make Dana's webpage more dynamic by providing adding multiple filters to provide an in-depth analysis of UFO sightings using Javascript. 
+
 ## Results: 
-Dana’s current dynamic table can filter the UFO sightings based on the Date of Sighting. Using JavaScript and HTML, the code was modified to create additional table filters : city, state, country, and shape. The user can input the search criteria  and the webpage will be updated after pressing "**Enter**".
+Dana’s current dynamic table can filter the UFO sightings based on the Date of Sighting. Using JavaScript and HTML, the code was modified to create additional table filters : city, state, country, and shape. After the user inputs the search criteria and presses **"Enter"**, the webpage will be updated accordingly. *Fig 1* depicts the webpage filtered with a single criterion. The table has been filtered to provide the UFO sightings based on the shape *'circle'*. 
+
+![1_filter](https://github.com/chinzjay/UFOs/blob/main/1_filter.PNG)
+|:--:|
+|Fig 1. Webpage filtered with one criterion|
+ 
+*Fig 2.* depicts the table that has been filtered with the criteria state *'ar'* and country *'us'*.
+![multiple_filter](https://github.com/chinzjay/UFOs/blob/main/multiple_filter.PNG)
+|:--:|
+|Fig 2. Webpage filtered with multiple criteria|
+
 
 ## Summary: 
-In a summary statement, describe one drawback of this new design and two recommendations for further development.
-The summary addresses one drawback of this webpage (2 pt)
-The table cannot filter based on or the other condition. The table can be modified to filter based on atleast one condition.
-The summary addresses two additional recommendations for further development (
+One of the major drawbacks of the design is that the filtering is case sensitive. If the filter condition is not in the same case as the table data, there will be zero results. 
+In the next phase of development, the following designs can be added.
+- The table filtering can be made case insensitive.
+- The table can be filtered based on either one the criterion when filtering with multiple fields.
